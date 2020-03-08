@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="042a3104-50a8-41e8-afa2-c0f5ef02cc54" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8.0_231" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Yph6NMPIWhs36ZYoymbD3EtCwP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/highspot/playlist" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn deploy" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.IngestApp">
+    <configuration name="IngestApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.highspot.playlist.IngestApp" />
+      <module name="PlayListIngest" />
+      <option name="PROGRAM_PARAMETERS" value="-i $PROJECT_DIR$/src/test/resources/mixtape-data.json -c $PROJECT_DIR$/src/test/resources/changes.json -o $PROJECT_DIR$/src/test/resources/output.json" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.highspot.playlist.exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IngesterTest.testCall_LoadMixTapeFileFailed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlayListIngest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.highspot.playlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.highspot.playlist" />
+      <option name="MAIN_CLASS_NAME" value="com.highspot.playlist.IngesterTest" />
+      <option name="METHOD_NAME" value="testCall_LoadMixTapeFileFailed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IngesterTest.testCall_Succeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlayListIngest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.highspot.playlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.highspot.playlist" />
+      <option name="MAIN_CLASS_NAME" value="com.highspot.playlist.IngesterTest" />
+      <option name="METHOD_NAME" value="testCall_Succeed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemovePlayListTest.testExecute_PlayListNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlayListIngest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.highspot.playlist.action.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.highspot.playlist.action" />
+      <option name="MAIN_CLASS_NAME" value="com.highspot.playlist.action.RemovePlayListTest" />
+      <option name="METHOD_NAME" value="testExecute_PlayListNotExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.IngestApp" />
+      <item itemvalue="JUnit.RemovePlayListTest.testExecute_PlayListNotExist" />
+      <item itemvalue="JUnit.IngesterTest.testCall_LoadMixTapeFileFailed" />
+      <item itemvalue="JUnit.IngesterTest.testCall_Succeed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IngestApp" />
+        <item itemvalue="JUnit.IngesterTest.testCall_Succeed" />
+        <item itemvalue="JUnit.IngesterTest.testCall_LoadMixTapeFileFailed" />
+        <item itemvalue="JUnit.RemovePlayListTest.testExecute_PlayListNotExist" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="042a3104-50a8-41e8-afa2-c0f5ef02cc54" name="Default Changelist" comment="" />
+      <created>1583645266094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583645266094</updated>
+      <workItem from="1583645268846" duration="42254000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="240" y="59" key="#Project_Structure" timestamp="1583646817869">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="240" y="59" key="#Project_Structure/0.23.1280.741@0.23.1280.741" timestamp="1583646817869" />
+    <state x="104" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583707971678">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="104" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.741@0.23.1280.741" timestamp="1583707971678" />
+    <state x="427" y="105" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1583648656032">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="427" y="105" key="#com.intellij.ide.macro.MacrosDialog/0.23.1280.741@0.23.1280.741" timestamp="1583648656032" />
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1583646030926">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.23.1280.741@0.23.1280.741" timestamp="1583646030926" />
+    <state width="1238" height="167" key="GridCell.Tab.0.bottom" timestamp="1583711249531">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state width="1238" height="167" key="GridCell.Tab.0.bottom/0.23.1280.741@0.23.1280.741" timestamp="1583711249531" />
+    <state width="1238" height="167" key="GridCell.Tab.0.center" timestamp="1583711249529">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state width="1238" height="167" key="GridCell.Tab.0.center/0.23.1280.741@0.23.1280.741" timestamp="1583711249529" />
+    <state width="1238" height="167" key="GridCell.Tab.0.left" timestamp="1583711249529">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state width="1238" height="167" key="GridCell.Tab.0.left/0.23.1280.741@0.23.1280.741" timestamp="1583711249529" />
+    <state width="1238" height="167" key="GridCell.Tab.0.right" timestamp="1583711249529">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state width="1238" height="167" key="GridCell.Tab.0.right/0.23.1280.741@0.23.1280.741" timestamp="1583711249529" />
+    <state width="1238" height="310" key="GridCell.Tab.1.bottom" timestamp="1583702431666">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state width="1238" height="310" key="GridCell.Tab.1.bottom/0.23.1280.741@0.23.1280.741" timestamp="1583702431666" />
+    <state width="1238" height="310" key="GridCell.Tab.1.center" timestamp="1583702431665">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state width="1238" height="310" key="GridCell.Tab.1.center/0.23.1280.741@0.23.1280.741" timestamp="1583702431665" />
+    <state width="1238" height="310" key="GridCell.Tab.1.left" timestamp="1583702431665">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state width="1238" height="310" key="GridCell.Tab.1.left/0.23.1280.741@0.23.1280.741" timestamp="1583702431665" />
+    <state width="1238" height="310" key="GridCell.Tab.1.right" timestamp="1583702431665">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state width="1238" height="310" key="GridCell.Tab.1.right/0.23.1280.741@0.23.1280.741" timestamp="1583702431665" />
+    <state x="178" y="55" key="Maven.ArtifactSearchDialog" timestamp="1583706330510">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="178" y="55" key="Maven.ArtifactSearchDialog/0.23.1280.741@0.23.1280.741" timestamp="1583706330510" />
+    <state x="128" y="23" key="SettingsEditor" timestamp="1583688570846">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="128" y="23" key="SettingsEditor/0.23.1280.741@0.23.1280.741" timestamp="1583688570846" />
+    <state width="640" height="370" key="XDebugger.FullValuePopup" timestamp="1583699042612">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state width="640" height="370" key="XDebugger.FullValuePopup/0.23.1280.741@0.23.1280.741" timestamp="1583699042612" />
+    <state x="305" y="177" width="670" height="675" key="run.anything.popup" timestamp="1583646378290">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="305" y="177" width="670" height="675" key="run.anything.popup/0.23.1280.741@0.23.1280.741" timestamp="1583646378290" />
+    <state x="305" y="88" width="670" height="676" key="search.everywhere.popup" timestamp="1583707631373">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="305" y="88" width="670" height="676" key="search.everywhere.popup/0.23.1280.741@0.23.1280.741" timestamp="1583707631373" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/highspot/playlist/IngesterTest.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/highspot/playlist/IngesterTest.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/highspot/playlist/Ingester.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/highspot/playlist/IngesterTest.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="e.getMessage()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
